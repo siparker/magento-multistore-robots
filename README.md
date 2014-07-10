@@ -34,10 +34,10 @@ INSTRUCTIONS:
 1. Copy the contents of the git repo to your magento root folder.
 2. Open robots.php and change the variable strings to the stripped down urls of your website, for example $website1 for the website www.google.com would be $website1 = "google";
 
-  $website1 = "website1url";
-  $website2 = "website2url";
-  $website3 = "website3url";
-  $website4 = "website4url";
+ 1. $website1 = "website1url";
+ 2. $website2 = "website2url";
+ 3. $website3 = "website3url";
+ 4. $website4 = "website4url";
 
 3. Change the content of the corresponding file in the /rbts-depend folder for each of your websites. This is what is displayed in the robots file if your defined website url matches the requested url.
 4. Test it, go to the robots.php file in your browser and see what gets output.
@@ -52,8 +52,8 @@ Make sure you apply the change to your .htaccess file, it will not work without 
 1. You will find in your root folder (presuming Magento is installed to root) a file called.htaccess.
 2. Around line 116 - 117 (dependant on version) you will find these two lines of code.
 
-  Options +FollowSymLinks
-  RewriteEngine on
+  1. Options +FollowSymLinks
+  2. RewriteEngine on
          
 3. A couple of spaces down from that add this code
 
